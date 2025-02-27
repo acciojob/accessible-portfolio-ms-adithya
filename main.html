@@ -3,13 +3,41 @@
 <html>
 
 <head>
+	<title>Accessible Portfolio</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<header>
+        <h1 role="heading">Adithya M S - Web Developer</h1>
+    </header>
+    
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about">
+        <img role="img" src="profile.jpg" alt="Adithya's profile picture">
+        <p>I am a passionate web developer specializing in accessible and user-friendly websites.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul role="list">
+            <li role="listitem">Portfolio Website</li>
+            <li role="listitem">E-commerce Site</li>
+            <li role="listitem">Blogging Platform</li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Adithya. All Rights Reserved.</p>
+    </footer>
+    <script type="text/javascript" src="./script.js"></script>
 
 </body>
 
